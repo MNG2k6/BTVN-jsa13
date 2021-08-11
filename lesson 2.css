@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 205px;
+    width: 205px;
+    background: black;
+    transition: 2s;
+    transition-duration: 2s;
+    transition-delay: 0.5ms;
+}
+
+.box:hover {
+    background: blue;
+    transform: translateX(40px);
+}
+
+
+.clock {
+    height: 200px;
+    width: 40%;
+    margin: 20xp 0;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time {
+    color: #fff;
+}
